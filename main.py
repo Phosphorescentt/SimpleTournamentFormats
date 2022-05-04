@@ -2,6 +2,8 @@ from typing import Type
 
 from numpy import random
 
+from DataProcessing import aggregate_wins
+
 
 class TournamentException(Exception):
     pass
@@ -129,10 +131,16 @@ if __name__ == "__main__":
 
     teams = [warwick_angels, portsmouth_paladins]
 
-    # s = Simulator(Bo1Finals, teams, 0.5)
-    # results = s.simulate(10)
-    # print(results)
+    s = Simulator(Bo1Finals, teams, 0.5)
+    results = s.simulate(10)
+    a_results = aggregate_wins(teams, results)
+    print(results)
+    print(a_results)
+
+    print("================")
 
     s2 = Simulator(Bo3Finals, teams, 0.5)
     results2 = s2.simulate(10)
+    a_results2 = aggregate_wins(teams, results2)
     print(results2)
+    print(a_results2)
