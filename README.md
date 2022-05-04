@@ -1,2 +1,2 @@
 # SimpleTournamentFormats
-Like TournamentFormats, but simpler
+Like [TournamentFormats](https://github.com/phosphorescentt/tournamentformats), but simpler
