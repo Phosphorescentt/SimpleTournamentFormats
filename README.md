@@ -8,4 +8,4 @@ The idea is the following:
 - Do some analysis on the outcomes
 
 # Inspiration
-In university esports, it felt like some games were getting unfair treatment in the size of their finals. For example, the tournament organisers would only give Overwatch a best of 5 final when most of the players believe it should be a best of 7. The idea for this project is to evaluate the difference between different finals formats and find the best tradeoff between time and fairness.
+In university esports, it felt like some games were getting unfair treatment in the size of their finals. For example, the tournament organisers would only give Overwatch a best of 5 final when most of the players believe it should be a best of 7. The idea for this project is to evaluate the difference between different formats for finals and find the best tradeoff between time and fairness.
