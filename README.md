@@ -1,4 +1,4 @@
-# SimpleTournamentFormats
+# TournamentFormatSimulator
 A simple script to use Monte Carlo simulations to evaluate the results of different tournament formats when teams perform imperfectly. The idea is to find the best tradeoff between time taken to run the tournament and fairness.
 
 The idea is the following:
